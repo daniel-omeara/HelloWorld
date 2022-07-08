@@ -6,5 +6,10 @@ namespace HelloWorld
         {
             InitializeComponent();
         }
+
+        private void buttonDisplayMessage_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello, world!");
+        }
     }
 }

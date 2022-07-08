@@ -39,6 +39,7 @@
             this.buttonDisplayMessage.TabIndex = 0;
             this.buttonDisplayMessage.Text = "Display Message";
             this.buttonDisplayMessage.UseVisualStyleBackColor = true;
+            this.buttonDisplayMessage.Click += new System.EventHandler(this.buttonDisplayMessage_Click);
             // 
             // Form1
             // 
